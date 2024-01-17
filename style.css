@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.containor{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.apply_box{
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    
+
+}
+
+label{
+    font-size: 15px;
+}
+
+.form_containor{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input:focus{
+    outline-color: black;
+}
+
+.Button_control{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    
+
+
+}
+
+button{
+    background-color: khaki;
+    padding: 10px 10px;
+    border: transparent solid 2px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+
