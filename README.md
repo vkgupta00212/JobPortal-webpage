@@ -1,1 +1,1 @@
-job portal page
+jobPortal-webpage
